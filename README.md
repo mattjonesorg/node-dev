@@ -10,3 +10,9 @@ To run this container, it would be a command something like this, juts make sure
 ```
 docker run --rm -it -v ${PWD}:/app -p 3001:3001 -p 16006:16006 node-dev
 ```
+
+Or, if you want to use the image that is built on docker hub:
+```
+docker run --rm -it -v ${PWD}:/app -p 3001:3001 -p 16006:16006 mattjonestechnology/node-dev
+```
+
